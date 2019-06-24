@@ -1,2 +1,2 @@
 # maurop13.github.io
-for HTML
+Repo designed specifically to access HTML Index pages for different projects. 
