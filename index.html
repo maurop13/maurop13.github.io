@@ -1,63 +1,157 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-  
+<html>
+<title>Maurop13's landing page</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap">
+<style>
+body {font-family: "Raleway", sans-serif}
+h1,h2,h3,h4,h5 {font-family: "Montserrat", thin}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Mauricio Perez Martinez</b></h1>
+  <p>Welcome to my landing page, here you'll find relevant information about myself, along with links to some projects and social pages <span class="w3-tag"></span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Who am I</b></h3>
+      <h5>Mauricio Perez M, <span class="w3-opacity">Emeryville, CA, USA</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>I'm a curious and passionate problem solver. I enjoy analyzing situations and problems, going into their root causes, and producing insights on their effects over other situations. I am very data and fact oriented, trying to gather as much information as possible, as well as analyzing it to understand commonalities and outlier data that might explain specific processes or behaviours of a set of interacting actors in a problem.</p>
+      <p> I'm a Psychologist and Industrial Engineer by academical formation, and a practical solutioner molded by my professional ventures. I'm most interested in aiding companies achieve their business strategy through a mix of data gathering and analytics, expert and stakeholder interviews and interaction, and research. I've refined the tools I have learnt through both of my degrees to incorporate hard data, people motivations and qualitative information, and generate an integral understanding of phenomenons. </p>
+      <p> I also hold a graduate degree in Human Talent Management and did a 6 months Data Analytics Bootcamp. I pursued both of these to get a better understanding of the underlying dynamics of people interacting with businesses and to hone my data analytics skills in a data information filled world. 
+      <p> In this webpage you will find different projects I've worked on while going through a Data Analytics Bootcamp, links to my relevant social media and a CV/resume in case you're interested in knowing more about me and/or contacting me.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <a href="/Resources/MauricioPerezMartinezCV.pdf" download="MauricioPerezMCV">
+            <img src="/Resources/Images/download.svg" alt="CV" width="104" height="142">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/Resources/Images/ProfilePic.png" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Mauricio Perez Martinez</b></h4>
+      <p>Born in Dade, FL, USA and raised in Colombia.</p>
+      <ul>
+        <li> Data Passionate and Problem Solver
+        </li>
+        <li> Bilingual
+        </li>
+        <li> Data analyst, Psychologist, Industrial Engineer 
+        </li>
+        <li>Avid reader
+        </li>
+        <li> Home-cook and baker
+      	</li>
+      </ul>
+    </div>
+  </div><hr>
   
-<title>
-Activity 1: Basic HTML Bio
-</title>
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Other Interesting Projects</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Weather Analysis</span><br>
+        <span>Web Page with visualizations on different weather data and interactions</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">All about Mars</span><br>
+        <span>Webpage built with information on Mars, scraped from different sites.</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">UFO Sightings - level 1</span><br>
+        <span>Visualization of cross sectional data on UFO sitings, filtering by date</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">UFO Sightings - level 2</span><br>
+        <span>Visualization of cross sectional data on UFO sitings, filtering by several types of information</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Healthcare</span><br>
+        <span>Correlation between healthcare, poverty and income</span>
+      </li>  
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Earthquakes</span><br>
+        <span>Visualization of recent earthquakes </span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+  
+<!-- END Introduction Menu -->
+</div>
 
-</head>
+<!-- END GRID -->
+</div><br>
 
+<!-- END w3-content -->
+</div>
 
-<body>
-
-<h1> Mauricio Perez</h1>
-<img src = "Mii.jpg" >
-<p>
-This is Mauri, he is nice and cool!
-</p>
-<p> He's doing a new data analytics course and learning how to write html
-</p>
-<li>
-<b> Email: </b> <a href="#">conavi_111@hotmail.com </a> 
-</li>
-<li>
-<b> Github: </b> <a href="#">maurop13 </a>
-</li>
-<li>
-<b>Twitter: </b> <a href="#">mauropm1</a>
-</li>
-<table>
-<tr>
-<th>Books
-</th>
-<th> Movies</th>
-<th> Games </th>
-</tr>
-<tr>
-<td> Harry potter and the Half Blood Prince </td>
-<td> Amelie </td>
-<td> Tales of Zestiria </td>
-</tr>
-<tr> 
-<td> Harry Potter and the Deathly Hallows </td>
-<td> Practical Magic </td>
-<td> Tales of Berseria </td>
-</tr>
-<tr> 
-<td>El cuaderno de Maya </td>
-<td> Titanic </td>
-<td> Super Smash Brothers </td>
-</tr>
-<tr>
-
-
-
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
-
-
 </html>
+
