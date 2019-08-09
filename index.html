@@ -11,14 +11,47 @@ h1,h2,h3,h4,h5 {font-family: "Montserrat", thin}
 </style>
 <body class="w3-light-grey">
 
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s4">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s4">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s4">
+      <div class="w3-row">
+          <div class="w3-col s4">
+              <a href="https://www.linkedin.com/in/mauricioperezmartinez/">
+                <img src="/Resources/Images/linkedinlogo.png"  width="20" height="20">
+              </a>
+          </div>
+            <div class="w3-col s4">
+              <a href="mailto:maurop13@gmail.com">
+                <img src="/Resources/Images/gmaillogo.png" width="20" height="20">
+              </a>
+          </div>
+            <div class="w3-col s4">
+              <a href="https://github.com/maurop13">
+                <img src="/Resources/Images/gmaillogo.png"  width="20" height="20">
+              </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32"> 
+  <br>
+  <br>
   <h1><b>Mauricio Perez Martinez</b></h1>
-  <p>Welcome to my landing page, here you'll find relevant information about myself, along with links to some projects and social pages <span class="w3-tag"></span></p>
+  <p>Welcome to my webpage, here you'll find relevant information about myself, along with links to some projects and social pages <span class="w3-tag"></span></p>
 </header>
 
 <!-- Grid -->
@@ -91,7 +124,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <li>Avid reader
         </li>
         <li> Home-cook and baker
-      	</li>
+        </li>
       </ul>
     </div>
   </div><hr>
@@ -103,34 +136,55 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <img src="Resources/Images/WeatherWP.png" class="w3-left w3-margin-right" style="width:50px">
+        <a href="https://maurop13.github.io/Week_11/">
         <span class="w3-large">Weather Analysis</span><br>
+        </a>
         <span>Web Page with visualizations on different weather data and interactions</span>
+        
       </li>
       <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <img src="Resources/Images/MarsWP.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <a href = "https://maurop13.github.io/Week_14/Level_3/">
         <span class="w3-large">All about Mars</span><br>
+        </a>
         <span>Webpage built with information on Mars, scraped from different sites.</span>
+        
       </li> 
       <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <img src="Resources/Images/UFOLevel1WP.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <a href="https://maurop13.github.io/Week_14/Level_1/">
         <span class="w3-large">UFO Sightings - level 1</span><br>
+        </a>
         <span>Visualization of cross sectional data on UFO sitings, filtering by date</span>
+        
       </li> 
       <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        
+        <img src="Resources/Images/UFOLevel2WP.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <a href = "https://maurop13.github.io/Week_14/Level_2/">
         <span class="w3-large">UFO Sightings - level 2</span><br>
+        </a>
         <span>Visualization of cross sectional data on UFO sitings, filtering by several types of information</span>
+        
       </li>   
       <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        
+        <img src="Resources/Images/HealthcareWP.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <a href="https://maurop13.github.io/Week_16/Level_1/">
         <span class="w3-large">Healthcare</span><br>
+        </a>
         <span>Correlation between healthcare, poverty and income</span>
+        
       </li>  
       <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        
+        <img src="Resources/Images/EarthquakeWP.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <a href="https://maurop13.github.io/Week_17/">
         <span class="w3-large">Earthquakes</span><br>
+        </a>
         <span>Visualization of recent earthquakes </span>
+        
       </li>  
     </ul>
   </div>
@@ -147,9 +201,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
 </body>
 </html>
-
